@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">पोखरा लेखनाथ महानगरपालिका</string>
+    <string name="appName">पोखरा लेखनाथ महानगरपालिका</string>
+
+    <string name="navigation_drawer_open">सगर पराजुली</string>
+    <string name="navigation_drawer_close">सगर पराजुली</string>
+
+    <string name="action_settings">सगर पराजुली</string>
+<string name="home">गृहपृष्ठ</string>
+    <string name="introduction">परिचय</string>
+    <string name="citizenchater">नागरिक वडापत्र</string>
+    <string name="tax">कर तथा शुल्कहरू</string>
+    <string name="news">सूचना तथा जानकारी </string>
+    <string name="numbers">फोन नम्बार</string>
+    <string name="email">मेयरसँग गुनासो</string>
+    <string name="nepali">सगर पराजुली</string>
+    <string name="admin">सगर पराजुली</string>
+    <string name="staff">कर्मचारी</string>
+    <string name="tender">फोहोर </string>
+    <string name="representative">जनप्रतिनिधि</string>
+    <string name="information">समाचार</string>
+    <string name="location">न्युरोड , पोखरा </string>
+    <string name="newRep">वडागत जनप्रतिनिधि</string>
+
+    <string name="pokharaABout">हाम्रो बारेमा</string>
+<string name="map">नक्सा </string>
+    <string name="planning">योजना </string>
+    <string name="house">घर नक्सा </string>
+
+
+    <string name="download_Pdf">नागरिक वडापत्र</string>
+    <string name="download_Doc">आय बिवरण</string>
+    <string name="download_zip">कर</string>
+    <string name="download_video">विविनियोजन ऐन</string>
+
+
+    <string name="download_mp3">Download MP3</string>
+    <string name="openFolder">Open Downloaded Folder</string>
+    <string name="downloadStarted">Download Started…</string>
+    <string name="downloadCompleted">Download Completed…</string>
+    <string name="downloadFailed">Download Failed…</string>
+    <string name="downloadAgain">Download Again</string>
+
+
+
+    <string name="downloads">डाउनलोड</string>
+    <string name="trash">फोहोर समयतालिका</string>
+    <string name="chater">नागरिक वडापत्र</string>
+
+    <string name="panjikaran">पञ्जीकरण  </string>
+    <string name="sifaris">सिफारिस  </string>
+    <string name="baypar">ब्यापार  </string>
+    <string name="pramadit">प्रमाणित </string>
+    <string name="kaar">कर</string>
+    <string name="darta">दर्ता </string>
+
+</resources>

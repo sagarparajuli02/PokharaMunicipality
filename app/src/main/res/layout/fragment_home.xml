@@ -1,0 +1,168 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.pokhara.lekhnath.HomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <!-- Top Sliding Banners -->
+
+        <!--<RelativeLayout-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="wrap_content" >-->
+
+            <com.daimajia.slider.library.SliderLayout
+                android:id="@+id/slider"
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                />
+
+        <!--</RelativeLayout>-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:layout_margin="5dp"
+                android:layout_weight="2"
+                android:background="#fff"
+                android:drawableTop="@drawable/ic_intro"
+
+                android:id="@+id/homePage"
+                android:paddingTop="7dp"
+                android:text="@string/introduction"
+                android:textColor="@color/colorPrimary" />
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:layout_margin="5dp"
+                android:layout_weight="2"
+                android:background="#fff"
+                android:drawableTop="@drawable/ic_folder"
+                android:paddingTop="7dp"
+                android:id="@+id/chaterPage"
+                android:text="@string/citizenchater"
+                android:textColor="@color/colorPrimary" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="120dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="#fff"
+                android:drawableTop="@drawable/ic_download"
+                android:padding="7dp"
+
+                android:id="@+id/downloadsPage"
+                android:text="@string/downloads"
+                android:textColor="@color/colorPrimary" />
+            <Button
+                android:padding="7dp"
+                android:layout_margin="5dp"
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:id="@+id/trash"
+                android:drawableTop="@drawable/ic_trash"
+                android:textColor="@color/colorPrimary"
+                android:background="#fff"
+                android:layout_weight="1"
+                android:text="@string/trash"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="#fff"
+                android:drawableTop="@drawable/ic_represent"
+                android:padding="7dp"
+
+                android:id="@+id/representPage"
+                android:text="@string/representative"
+                android:textColor="@color/colorPrimary" />
+            <Button
+                android:padding="7dp"
+                android:layout_margin="5dp"
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:drawableTop="@drawable/manager"
+                android:textColor="@color/colorPrimary"
+                android:background="#fff"
+                android:layout_weight="1"
+                android:id="@+id/staffPage"
+                android:text="@string/staff"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="#fff"
+                android:drawableTop="@drawable/ic_planning"
+                android:padding="7dp"
+
+                android:id="@+id/yojanaPage"
+                android:text="@string/planning"
+                android:textColor="@color/colorPrimary" />
+            <Button
+                android:padding="7dp"
+                android:layout_margin="5dp"
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:drawableTop="@drawable/ic_house"
+                android:textColor="@color/colorPrimary"
+                android:background="#fff"
+                android:layout_weight="1"
+                android:id="@+id/gharPage"
+                android:text="@string/house"/>
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Latest News"
+            android:gravity="center"
+            android:layout_margin="4dp"
+            android:padding="4dp"
+            android:background="@color/colorPrimary"
+            android:textColor="#fff"
+            android:textSize="20dp"
+            android:id="@+id/ViewAllNews"/>
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycleViewContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+        />
+
+    </LinearLayout>
+
+
+
+</ScrollView>

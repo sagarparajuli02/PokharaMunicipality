@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    tools:context="com.pokhara.lekhnath.Downloads">
+
+    <Button
+        android:id="@+id/downloadPdf"
+        android:layout_width="fill_parent"
+        android:background="@color/colorPrimary"
+        android:textColor="#fff"
+        android:layout_margin="5dp"
+        android:layout_height="wrap_content"
+        android:text="@string/download_Pdf" />
+
+    <!--  Download Doc Layout  -->
+    <Button
+        android:id="@+id/downloadDoc"
+        android:layout_margin="5dp"
+        android:background="@color/colorPrimary"
+        android:textColor="#fff"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/download_Doc" />
+
+    <!--  Download Zip File Layout  -->
+    <Button
+        android:id="@+id/downloadZip"
+        android:layout_margin="5dp"
+        android:background="@color/colorPrimary"
+        android:textColor="#fff"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/download_zip" />
+
+    <!--  Download Video File Layout  -->
+    <Button
+        android:id="@+id/downloadVideo"
+        android:layout_margin="5dp"
+        android:layout_width="fill_parent"
+        android:background="@color/colorPrimary"
+        android:textColor="#fff"
+        android:layout_height="wrap_content"
+        android:text="@string/download_video" />
+
+
+
+    <TextView
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Files are saved in file manager"/>
+</LinearLayout>

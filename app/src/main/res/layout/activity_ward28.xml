@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pokhara.lekhnath.Ward28">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="7dp"
+            android:background="#fff"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="150dp"
+                android:id="@+id/first"
+                android:layout_gravity="center"
+                android:layout_height="150dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:text="श्री निर्मल सुनार"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="वडा अध्यक्ष"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="९८५६००३०२८"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="7dp"
+            android:background="#fff"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="150dp"
+                android:id="@+id/second"
+                android:layout_gravity="center"
+                android:layout_height="150dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:text="श्री विष्णु तिवारी"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="वडा सदस्य"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="7dp"
+            android:background="#fff"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="150dp"
+                android:id="@+id/third"
+                android:layout_gravity="center"
+                android:layout_height="150dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:text="श्री अम्बिका बुढाथोकी"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="वडा सदस्य"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="7dp"
+            android:background="#fff"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="150dp"
+                android:id="@+id/fourth"
+                android:layout_gravity="center"
+                android:layout_height="150dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:text="श्री कल्पना परियार"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="वडा सदस्य"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

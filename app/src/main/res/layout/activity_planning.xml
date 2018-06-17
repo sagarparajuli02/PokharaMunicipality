@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pokhara.lekhnath.Planning">
+<LinearLayout
+    android:layout_margin="5dp"
+    android:background="#fff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_margin="5dp"
+        android:textSize="20dp"
+        android:text=" योजना सम्झौता गर्नको लागि न्युनतम आवश्यकता "/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:lineSpacingExtra="8dp"
+        android:text="१)सम्बन्धित योजना पोखरा लेखनाथ महानगरपालिका नगर कार्यपालिका कार्यालयको नगरसभाबाट स्वीकृत भएको हुनु पर्ने \n
+२) न्युनतम ५ देखि १७ जना सम्मको सम्बन्धित योजना उपभोग गर्ने उपभोक्ता मध्यबाट  उपभोक्ता समिति गठन गरेको निर्णय \n
+३) प्राविधिकले स्थलगत अनुगमन गरि तयार गरि प्रमाणित गरेको योजनाको Estimate , Detail drawing and Specification सहित पेश गर्ने
+४)साबिकका गाबिसमा २०% र सहरी क्षेत्रमा ४०%  जनसहभागिता जम्मा गर्ने \n
+५) जनसहभागिता बराबरको रकम पहिलो किस्ता बापत सम्बन्धित वडा/ पो.ले.मा.न.पा. कार्यालय बाट निकाशा गर्ने \n
+६)५,००,००० भन्दा माथिका योजनाको पक्षमा सर्वसाधारणलाई जानकारीको लागि  योजनाको विवरण सहित योजना स्थलमा होडिंग बोर्ड टास्ने \n
+७) दोश्रो किस्ता ग्रहण गर्नका लागि पहिलो किस्ताबाट कार्य सम्पादन गरेको बिल भरपाई र कार्य विवरण पेश गरेको समितिको बैठकको माइनटको फोटोकपी पेश गर्ने \n
+८) प्राविधिकलाइ  स्थलगत अनुगमन गराइ  प्रमाणित गरेको कार्य मुल्यांकनको आधारमा कुल लागतको ४०% कार्यालयले उपभोक्ता समितिलाई प्रधान गर्ने \n
+९) नागरिक पारदर्शिताका लागि  सर्वाजनिक लेखा परिक्षण  गर्ने \n
+१०) योजना सम्पन्न गर्दा योजनाको सुरु मध्य र अन्त्यको  फोटो, सर्वाजनिक लेखा परिक्षणको  उपस्थितिको माइनटको फोटोकपि, पत्रपत्रिकामा प्रकाशन गरेको पेपर कट ,होडिंग बोर्डको फोटो सहित पेश गर्ने \n
+११) सम्बन्धित योजनाको प्राबिधिक लाइ स्थलगत अनुगमन गराई कार्य समापनको मुल्यांकन गराउने \n
+१२) अन्तिम किस्ताको लागि योजना फरफारक गरि रकम निकाशा गर्ने \n
+
+
+\
+"
+        android:textColor="#000" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:text="जिम्मेवार अधिकारि र लाग्ने समय "/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="8dp"
+        android:textColor="#000"
+        android:text="सम्बन्धित वडा कार्यालयका जुनियर इन्जिनियर, इन्जिनियर, \n
+शहरी विकास तथा योजना महाशाखा  "/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:text="लाग्ने समय  "/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:lineSpacingExtra="8dp"
+        android:textColor="#000"
+        android:layout_height="wrap_content"
+        android:text=" योजना अनुसार फरक फरक दिन/ महिना "/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:text="लाग्ने दस्तुर  "/>
+    <TextView
+        android:lineSpacingExtra="8dp"
+      android:textColor="#000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="सम्झौता अनुसार "/>
+</LinearLayout>
+</ScrollView>

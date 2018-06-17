@@ -1,0 +1,341 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pokhara.lekhnath.RepresentativeNew">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_margin="5dp"
+      android:layout_height="match_parent"
+      android:orientation="vertical">
+
+      <Button
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/ward1"
+          android:text="वडा नं १"
+          android:textSize="20dp"
+          android:textColor="#000"
+          android:layout_margin="5dp"
+          android:background="@drawable/boders"/>
+      <Button
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/ward2"
+          android:textSize="20dp"
+          android:textColor="#000"
+          android:layout_margin="5dp"
+          android:background="@drawable/boders"
+          android:text="वडा नं २"/>
+      <Button
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textSize="20dp"
+          android:textColor="#000"
+          android:layout_margin="5dp"
+          android:background="@drawable/boders"
+          android:id="@+id/ward3"
+          android:text="वडा नं ३"/>
+      <Button
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textSize="20dp"
+          android:textColor="#000"
+          android:layout_margin="5dp"
+          android:background="@drawable/boders"
+          android:id="@+id/ward4"
+          android:text="वडा नं ४"/>
+      <Button
+          android:layout_width="match_parent"
+          android:textSize="20dp"
+          android:textColor="#000"
+          android:layout_margin="5dp"
+          android:background="@drawable/boders"
+          android:layout_height="wrap_content"
+          android:id="@+id/ward5"
+          android:text="वडा नं ५"/>
+      <Button
+          android:layout_width="match_parent"
+          android:textSize="20dp"
+          android:textColor="#000"
+          android:layout_margin="5dp"
+          android:background="@drawable/boders"
+          android:layout_height="wrap_content"
+          android:id="@+id/ward6"
+          android:text="वडा नं ६"/>
+      <Button
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/ward7"
+          android:textSize="20dp"
+          android:textColor="#000"
+          android:layout_margin="5dp"
+          android:background="@drawable/boders"
+          android:text="वार्ड नं ७"/>
+      <Button
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textSize="20dp"
+          android:textColor="#000"
+          android:layout_margin="5dp"
+          android:background="@drawable/boders"
+          android:id="@+id/ward8"
+          android:text="वार्ड नं ८"/>
+      <Button
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+          android:textSize="20dp"
+          android:textColor="#000"
+          android:layout_margin="5dp"
+          android:background="@drawable/boders"
+      android:id="@+id/ward9"
+      android:text="वार्ड नं ९"/>
+      <Button
+      android:layout_width="match_parent"
+          android:textSize="20dp"
+          android:textColor="#000"
+          android:layout_margin="5dp"
+          android:background="@drawable/boders"
+      android:layout_height="wrap_content"
+      android:id="@+id/ward10"
+      android:text="वार्ड नं १०"/>
+      <Button
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textSize="20dp"
+          android:textColor="#000"
+          android:layout_margin="5dp"
+          android:background="@drawable/boders"
+          android:id="@+id/ward11"
+          android:text="वार्ड नं ११"/>
+      <Button
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textSize="20dp"
+          android:textColor="#000"
+          android:layout_margin="5dp"
+          android:background="@drawable/boders"
+          android:id="@+id/ward12"
+          android:text="वार्ड नं १२"/>
+
+
+
+      <Button
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+          android:textSize="20dp"
+          android:textColor="#000"
+          android:layout_margin="5dp"
+          android:background="@drawable/boders"
+      android:id="@+id/ward13"
+      android:text="वार्ड नं १३"/>
+      <Button
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textSize="20dp"
+          android:textColor="#000"
+          android:layout_margin="5dp"
+          android:background="@drawable/boders"
+          android:id="@+id/ward14"
+          android:text="वार्ड नं १४"/>
+
+
+
+      <Button
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textSize="20dp"
+          android:textColor="#000"
+          android:layout_margin="5dp"
+          android:background="@drawable/boders"
+          android:id="@+id/ward15"
+          android:text="वार्ड नं १५"/>
+      <Button
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textSize="20dp"
+          android:textColor="#000"
+          android:layout_margin="5dp"
+          android:background="@drawable/boders"
+          android:id="@+id/ward16"
+          android:text="वडा नं १६"/>
+
+
+
+      <Button
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textSize="20dp"
+          android:textColor="#000"
+          android:layout_margin="5dp"
+          android:background="@drawable/boders"
+          android:id="@+id/ward17"
+          android:text="वार्ड नं १७"/>
+      <Button
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textSize="20dp"
+          android:textColor="#000"
+          android:layout_margin="5dp"
+          android:background="@drawable/boders"
+          android:id="@+id/ward18"
+          android:text="वार्ड नं १८"/>
+
+
+
+      <Button
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textSize="20dp"
+          android:textColor="#000"
+          android:layout_margin="5dp"
+          android:background="@drawable/boders"
+          android:id="@+id/ward19"
+          android:text="वार्ड नं १९"/>
+      <Button
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/ward20"
+          android:textSize="20dp"
+          android:textColor="#000"
+          android:layout_margin="5dp"
+          android:background="@drawable/boders"
+          android:text="वार्ड नं २०"/>
+
+
+
+      <Button
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textSize="20dp"
+          android:textColor="#000"
+          android:layout_margin="5dp"
+          android:background="@drawable/boders"
+          android:id="@+id/ward21"
+          android:text="वार्ड नं २१"/>
+
+      <Button
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textSize="20dp"
+          android:textColor="#000"
+          android:layout_margin="5dp"
+          android:background="@drawable/boders"
+          android:id="@+id/ward22"
+          android:text="वार्ड नं २२"/>
+
+      <Button
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textSize="20dp"
+          android:textColor="#000"
+          android:layout_margin="5dp"
+          android:background="@drawable/boders"
+          android:id="@+id/ward23"
+          android:text="वार्ड नं २३"/>
+
+      <Button
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/ward24"
+          android:textSize="20dp"
+          android:textColor="#000"
+          android:layout_margin="5dp"
+          android:background="@drawable/boders"
+          android:text="वार्ड नं २४"/>
+
+      <Button
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textSize="20dp"
+          android:textColor="#000"
+          android:layout_margin="5dp"
+          android:background="@drawable/boders"
+          android:id="@+id/ward25"
+          android:text="वार्ड नं २५"/>
+      <Button
+          android:layout_width="match_parent"
+          android:textSize="20dp"
+          android:textColor="#000"
+          android:layout_margin="5dp"
+          android:background="@drawable/boders"
+          android:layout_height="wrap_content"
+          android:id="@+id/ward26"
+          android:text="वार्ड नं २६"/>
+
+      <Button
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textSize="20dp"
+          android:textColor="#000"
+          android:layout_margin="5dp"
+          android:background="@drawable/boders"
+          android:id="@+id/ward27"
+          android:text="वार्ड नं २७"/>
+
+      <Button
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textSize="20dp"
+          android:textColor="#000"
+          android:layout_margin="5dp"
+          android:background="@drawable/boders"
+          android:id="@+id/ward28"
+          android:text="वार्ड नं २८"/>
+
+      <Button
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textSize="20dp"
+          android:textColor="#000"
+          android:layout_margin="5dp"
+          android:background="@drawable/boders"
+          android:id="@+id/ward29"
+          android:text="वार्ड नं २९"/>
+
+      <Button
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textSize="20dp"
+          android:textColor="#000"
+          android:layout_margin="5dp"
+          android:background="@drawable/boders"
+          android:id="@+id/ward30"
+          android:text="वार्ड नं ३०"/>
+
+      <Button
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textSize="20dp"
+          android:textColor="#000"
+          android:layout_margin="5dp"
+          android:background="@drawable/boders"
+          android:id="@+id/ward31"
+          android:text="वार्ड नं ३१"/>
+
+      <Button
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/ward32"
+          android:textSize="20dp"
+          android:textColor="#000"
+          android:layout_margin="5dp"
+          android:background="@drawable/boders"
+          android:text="वडा नं.३२"/>
+      <Button
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textSize="20dp"
+          android:textColor="#000"
+          android:layout_margin="5dp"
+          android:background="@drawable/boders"
+          android:id="@+id/ward33"
+          android:text="वडा नं ३३"/>
+
+
+
+
+  </LinearLayout>
+
+</ScrollView>

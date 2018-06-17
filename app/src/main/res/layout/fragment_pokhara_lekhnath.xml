@@ -1,0 +1,91 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pokhara.lekhnath.PokharaLekhnath">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="#fff"
+        android:layout_margin="5dp"
+       android:gravity="center_horizontal"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_margin="5dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/nepal"/>
+
+
+        <TextView
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/appName"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+
+            android:textColor="#000"
+            android:text="@string/location"/>
+        <TextView
+            android:textColor="#000"
+
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+
+            android:text="ईमेल: info@pokharalekhnathmun.gov.np"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#000"
+
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:text="फोन: +९७७ ६१ ५२११०५, ५२५३४०, ५२११०४, ५२१४६०"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="#000"
+
+            android:layout_margin="5dp"
+            android:text="फ्याक्स: +९७७ ०६१ ५२०६००"/>
+
+        <LinearLayout
+           android:layout_width="match_parent"
+           android:orientation="horizontal"
+           android:gravity="center_horizontal"
+           android:layout_margin="5dp"
+           android:layout_height="wrap_content">
+           <ImageView
+               android:layout_width="60dp"
+               android:layout_height="60dp"
+              android:id="@+id/facebook"
+               android:layout_marginRight="10dp"
+               android:src="@drawable/facebook"/>
+           <ImageView
+               android:layout_width="60dp"
+               android:layout_height="60dp"
+               android:id="@+id/website"
+              android:layout_marginLeft="10dp"
+               android:src="@drawable/web"/>
+
+       </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

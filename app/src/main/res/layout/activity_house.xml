@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.pokhara.lekhnath.House">
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:scrollbars="vertical" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:text="द्रष्टव्यः "/>
+    <TextView
+        android:layout_width="match_parent"
+        android:textColor="#000"
+        android:lineSpacingExtra="7dp"
+        android:layout_height="wrap_content"
+        android:text="(१) माथि उल्लेखित सेवा प्राप्त गर्नका लागि यस कार्यालयमा वुझाउनुपर्ने सम्पूर्ण कर, दस्तुर  तथा शुल्क अनिवार्य वुझाएको  हेनुपर्नेछ ।
+ (२) सम्पूर्ण कागजातहरुको सक्कल प्रमाणका कागजात देखाउनु अनिवार्य हुनेछ ।
+ (३) सेवा प्रदान गर्ने सिलसिलाम छानबिन आवश्यक देखिएमा समयावधि थप लाग्नेछ ।"/>
+
+</LinearLayout>

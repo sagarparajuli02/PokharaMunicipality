@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.pokhara.lekhnath.Chater.DetailsChater">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="7dp"
+        android:background="#fff">
+
+<LinearLayout
+    android:layout_margin="7dp"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/text1_activity2"
+        android:layout_gravity="center"
+        android:textColor="#000"
+        android:layout_width="wrap_content"
+        android:text="hello"
+        android:layout_height="wrap_content"
+        android:textSize="30sp" />
+    <TextView
+
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:layout_gravity="center"
+        android:textColor="@color/colorPrimary"
+        android:text="आवस्यक पर्ने कागजात "/>
+
+
+
+    <TextView
+        android:id="@+id/text2_activity2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hello"
+        android:lineSpacingExtra="7dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center"
+        android:textSize="22dp"
+        android:textColor="@color/colorPrimary"
+        android:text="सेवा सुबिधा प्राप्त गर्न आवस्यक पर्ने प्रक्रिया "/>
+    <TextView
+        android:id="@+id/text3_activity2"
+        android:layout_width="wrap_content"
+        android:text="hello3"
+        android:lineSpacingExtra="7dp"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22dp"
+        android:layout_gravity="center"
+
+        android:textColor="@color/colorPrimary"
+        android:text="जिम्मेवार अधिकारी र लाग्ने समय  "/>
+
+    <TextView
+        android:id="@+id/text4_activity2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="7dp"
+        android:text="hello4"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22dp"
+        android:layout_gravity="center"
+
+        android:textColor="@color/colorPrimary"
+        android:text="लाग्ने दस्तुर "/>
+
+    <TextView
+        android:id="@+id/text5_activity2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="7dp"
+        android:text="hello4"
+        />
+</LinearLayout>
+        </android.support.v7.widget.CardView>
+</ScrollView>
+

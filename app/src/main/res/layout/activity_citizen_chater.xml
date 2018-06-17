@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.pokhara.lekhnath.Chater.CitizenChater">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_margin="5dp"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false">
+
+
+        <LinearLayout
+            android:id="@+id/sifarisLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:focusable="true"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/sifaris"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginRight="5dp"
+                android:adjustViewBounds="false"
+                android:background="@android:color/background_light"
+                android:clickable="false"
+                android:elevation="0dp"
+                android:scaleType="centerInside"
+               android:src="@drawable/ic_sifaris" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginRight="5dp"
+                android:background="#3498db"
+                android:clickable="false"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/sifaris"
+                android:textColor="@android:color/background_light"
+                android:textSize="17sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/byaparLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:focusable="true"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/byapar"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginLeft="5dp"
+                android:background="@android:color/background_light"
+                android:clickable="false"
+                android:src="@drawable/ic_byapar" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                android:background="#3498db"
+                android:clickable="false"
+                android:gravity="center"
+                android:text="@string/baypar"
+                android:textColor="@android:color/background_light"
+                android:textSize="17sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_margin="5dp"
+        android:layout_height="wrap_content" android:baselineAligned="false">
+
+        <LinearLayout
+            android:id="@+id/panjikaranLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:focusable="true"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/panjikaran"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginRight="5dp"
+                android:background="@android:color/background_light"
+                android:clickable="false"
+                android:src="@drawable/ic_panjikaran" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginRight="5dp"
+                android:background="#3498db"
+                android:clickable="false"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/panjikaran"
+                android:textColor="@android:color/background_light"
+                android:textSize="17sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/pramaditLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:focusable="true"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/pradigit"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginLeft="5dp"
+                android:background="@android:color/background_light"
+                android:clickable="false"
+                android:src="@drawable/ic_pramadit" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                android:background="#3498db"
+                android:clickable="false"
+                android:gravity="center"
+                android:text="@string/pramadit"
+                android:textColor="@android:color/background_light"
+                android:textSize="17sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_margin="5dp"
+        android:layout_height="wrap_content" android:baselineAligned="false">
+
+        <LinearLayout
+            android:id="@+id/kaarLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:focusable="true"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/kaar"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginRight="5dp"
+                android:background="@android:color/background_light"
+                android:clickable="false"
+                android:src="@drawable/ic_tax" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginRight="5dp"
+                android:background="#3498db"
+                android:clickable="false"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/kaar"
+                android:textColor="@android:color/background_light"
+                android:textSize="17sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/dartaLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:focusable="true"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/darta"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginLeft="5dp"
+                android:background="@android:color/background_light"
+                android:clickable="false"
+                android:src="@drawable/ic_darta"/>
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                android:background="#3498db"
+                android:clickable="false"
+                android:gravity="center"
+                android:text="@string/darta"
+                android:textColor="@android:color/background_light"
+                android:textSize="17sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

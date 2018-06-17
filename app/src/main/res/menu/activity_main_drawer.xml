@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_home"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/introduction"
+            android:icon="@drawable/intro"
+            android:title="@string/introduction" />
+
+        <item
+            android:id="@+id/employee"
+            android:icon="@drawable/staff"
+            android:title="@string/staff" />
+        <item
+            android:id="@+id/staff"
+            android:icon="@drawable/employee"
+            android:title="@string/representative" />
+        <item
+            android:id="@+id/representativenew"
+            android:icon="@drawable/employee"
+            android:title="@string/newRep" />
+        <item
+            android:id="@+id/informtion"
+            android:icon="@drawable/information"
+            android:title="@string/information" />
+
+        <item
+            android:id="@+id/news"
+            android:icon="@drawable/news"
+            android:title="@string/news" />
+        <item
+            android:id="@+id/tender"
+            android:icon="@drawable/waste"
+            android:title="@string/trash" />
+        <item
+            android:id="@+id/pokharaLekhnath"
+            android:icon="@drawable/pokhara"
+            android:title="@string/pokharaABout" />
+        <item
+            android:id="@+id/map"
+            android:icon="@drawable/mapp"
+            android:title="@string/map" />
+        <item
+            android:id="@+id/importantNumber"
+            android:icon="@drawable/number"
+            android:title="@string/numbers" />
+
+        <item
+        android:icon="@drawable/ic_email"
+        android:id="@+id/email"
+        android:title="@string/email"
+        />
+
+    </group>
+</menu>

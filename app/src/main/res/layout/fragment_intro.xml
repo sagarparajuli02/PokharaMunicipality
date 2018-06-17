@@ -1,0 +1,24 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.pokhara.lekhnath.Fragments.IntroFragment">
+<android.support.v7.widget.CardView
+    android:layout_margin="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="2dp"
+    android:background="#fff"
+    >
+    <TextView
+        android:padding="7dp"
+        android:textSize="16dp"
+        android:textColor="@color/cardview_dark_background"
+        android:layout_width="match_parent"
+        android:lineSpacingExtra="8dp"
+        android:layout_height="wrap_content"
+        android:text="वि. सं. २०५२ माघ १८ गते उप-महानगरपालिका घोषित पोखराकाे क्षेत्रफल २२५.६५ वर्ग कि. मी. थियाे । वि. सं. २०७३ फाल्गुन २७ गते महानगरपालिका घाेषणा भएकाे  पोखरा-लेखनाथ महानगरपालिकाकाे क्षेत्रफल ४६४.२४ वर्ग कि. मी. रहेको छ भने कुल जनसंख्या ४,०२,९९५ छ |  महानगरपालिकाको केन्द्र साबिक पोखरा उप-महानगरपालिका कार्यालय नै रहनेछ | पाेखरा लेखनाथ महानगरपालिका, पोखरा उप-महानगरपालिका, लेखनाथ नगरपालिका, मौजा, चापाकोट, भदौरे तमानी (३,९ ), कास्कीकोट माझठाना ( १,४,९ ) कालिका ( १,५ ) र पुरन्चौर गा. बि .स. मिलि कुल ३३ वटा वडामा विभाजित छ । पोखरा-लेखनाथ महानगरपालिकाको पूर्वी सिमानामा मादी र रुपा गाउँपालिका, पश्चिममा अन्नपूर्ण गाउँपालिका पर्वत र स्याङ्जा जिल्ला रहेको छ उत्तरी सिमानामा माछापुच्छ्रे र मादी गाउँपालिका तथा दक्षिणमा स्याङ्जा र तनहु जिल्ला रहेको छ |"/>
+
+</android.support.v7.widget.CardView>
+</FrameLayout>

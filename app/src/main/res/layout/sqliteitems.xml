@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_margin="5dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageEmployee"/>
+
+    <TextView
+        android:id="@+id/textViewSubject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textViewSubjectFullForm"
+        android:layout_marginTop="13dp"
+        android:text="Name"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:layout_alignLeft="@+id/textViewSubjectFullForm" />
+
+
+    <TextView
+        android:id="@+id/textViewSubjectFullForm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewSubject"
+        android:layout_marginStart="15dp"
+        android:layout_toEndOf="@+id/imageEmployee"
+        android:text="phone number"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@+id/imageEmployee" />
+</RelativeLayout>

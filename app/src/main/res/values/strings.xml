@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Pokhara Lekhnath Metropolitan City</string>
+    <string name="appName">Pokhara Lekhnath Metropolitan City</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="home">Home</string>
+    <string name="introduction">Introduction</string>
+    <string name="citizenchater">Citizen Charter</string>
+    <string name="tax">Taxe Rates</string>
+    <string name="news">News</string>
+    <string name="newRep">Ward Wise Representative</string>
+    <string name="numbers">Important Number</string>
+    <string name="email">Complain with Mayor</string>
+    <string name="nepali">Nepali</string>
+    <string name="admin">Admin</string>
+    <string name="map">Map</string>
+    <string name="staff">Staff</string>
+    <string name="information">Information</string>
+    <string name="pokharaABout">Pokhara Lekhnath</string>
+    <string name="chater">Citizen Charter</string>
+    <string name="download_Pdf">Citizen Chater </string>
+    <string name="download_Doc">Income</string>
+    <string name="download_zip">Tax</string>
+    <string name="download_video">विनियोजन ऐन
+    </string>
+    <string name="location">NewRoad, Pokhara</string>
+
+    <string name="planning">Planning</string>
+    <string name="house">House Map</string>
+    <string name="download_mp3">Download MP3</string>
+    <string name="openFolder">Open Downloaded Folder</string>
+    <string name="downloadStarted">Download Started…</string>
+    <string name="downloadCompleted">Download Completed…</string>
+    <string name="downloadFailed">Download Failed…</string>
+    <string name="downloadAgain">Download Again</string>
+    <string name="downloads">Downloads</string>
+
+    <string name="tender">Waste Management</string>
+    <string name="representative">Representative</string>
+    <string name="trash">Garbage Routine</string>
+    <string name="panjikaran">Panjikaran</string>
+    <string name="sifaris">Sifaris</string>
+    <string name="baypar">Byapar</string>
+    <string name="pramadit">Pramadit</string>
+    <string name="kaar">Tax</string>
+    <string name="darta">Darta</string>
+
+
+
+
+</resources>
+
